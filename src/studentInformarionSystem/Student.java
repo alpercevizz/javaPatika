@@ -29,15 +29,15 @@ public class Student {
 
     void addBulkExamNote(int note1, int note2, int note3, int performanceAverage) {
         if(note1 >= 0 && note1 <= 100){
-            course1.note = note1;
+            this.course1.note = note1;
         }
 
         if(note2 >= 0 && note2 <= 100){
-            course2.note = note2;
+            this.course2.note = note2;
         }
 
         if(note3 >= 0 && note3 <= 100){
-            course3.note = note3;
+            this.course3.note = note3;
         }
 
 
